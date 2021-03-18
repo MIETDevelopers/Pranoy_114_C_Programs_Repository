@@ -1,8 +1,8 @@
-#include <stdio.h>
-#include <conio.h>
+#include <stdio.h>	//Preprocessor directive to include standard input output header file
+#include <conio.h>	//Preprocessor directive to include console input output header file
 int main()
 {
-	float side, area_Square, area_Circle, radius,length, breadth, area_Rectangle, perimeter_Rectangle, circumfernce, perimeter_Square;
+	float side, area_Square, area_Circle, radius,length, breadth, area_Rectangle, perimeter_Rectangle, circumfernce, perimeter_Square;	//variable declaration
   
   	printf("Enter length of side of square\n");
   	scanf("%f", &side);
