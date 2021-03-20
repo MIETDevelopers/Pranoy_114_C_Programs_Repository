@@ -1,3 +1,7 @@
+//Author Name: Pranoy Bhan
+//Creation Date: 16 March 2021
+//Purpose: To calculate area and perimeter of square, rectangle and circle 
+
 #include <stdio.h>	//Preprocessor directive to include standard input output header file
 #include <conio.h>	//Preprocessor directive to include console input output header file
 int main()
