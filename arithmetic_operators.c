@@ -10,12 +10,12 @@ int main()
    float divide;  //variable declaration of float data type
  
    printf("Enter two numbers\n");   //printf function calling to print two numbers
-   scanf("%d%d", &num1, &num2);
+   scanf("%d%d", &num1, &num2);  //taking input from user
  
-   add = num1 + num2;
-   subtract = num1 - num2;
-   multiply = num1 * num2;
-   divide = num1 / (float)num2;  
+   add = num1 + num2;   //formula for addition
+   subtract = num1 - num2;  //formula for subtraction
+   multiply = num1 * num2;  //formula for multiplication
+   divide = num1 / (float)num2;   //formula for division
 
    printf("Sum = %d\n", add); //printf function calling to print sum
    printf("Difference = %d\n", subtract); //printf function calling to print difference
