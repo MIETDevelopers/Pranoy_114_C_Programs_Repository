@@ -1,46 +1,27 @@
-<<<<<<< HEAD
-#include <stdio.h>
+//Author Name: Pranoy Bhan
+//Creation Date: 16 March 2021
+//Purpose: Program for arithmetic operators
+
+#include <stdio.h>   //Preprocessor directive to include standard input output header file
 int main()
-{
-   int first, second, add, subtract, multiply;
-   float divide;
+{  //Start of main function body
+   
+   int num1, num2, add, subtract, multiply;  //variable declaration of integer data type
+   float divide;  //variable declaration of float data type
  
-   printf("Enter two integers\n");
-   scanf("%d%d", &first, &second);
+   printf("Enter two numbers\n");   //printf function calling to print two numbers
+   scanf("%d%d", &num1, &num2);  //taking input from user
  
-   add = first + second;
-   subtract = first - second;
-   multiply = first * second;
-   divide = first / (float)second;  
+   add = num1 + num2;   //formula for addition
+   subtract = num1 - num2;  //formula for subtraction
+   multiply = num1 * num2;  //formula for multiplication
+   divide = num1 / (float)num2;   //formula for division
 
-   printf("Sum = %d\n", add);
-   printf("Difference = %d\n", subtract);
-   printf("Multiplication = %d\n", multiply);
-   printf("Division = %.2f\n", divide); 
+   printf("Sum = %d\n", add); //printf function calling to print sum
+   printf("Difference = %d\n", subtract); //printf function calling to print difference
+   printf("Multiplication = %d\n", multiply);   //printf function calling to print multiplication 
+   printf("Division = %.2f\n", divide);   //printf function calling to print division
  
-   return 0;
+   return 0;   //return statement
 }
-
-=======
-#include <stdio.h>
-int main()
-{
-   int first, second, add, subtract, multiply;
-   float divide;
- 
-   printf("Enter two integers\n");
-   scanf("%d%d", &first, &second);
- 
-   add = first + second;
-   subtract = first - second;
-   multiply = first * second;
-   divide = first / (float)second;  
-
-   printf("Sum = %d\n", add);
-   printf("Difference = %d\n", subtract);
-   printf("Multiplication = %d\n", multiply);
-   printf("Division = %.2f\n", divide); 
- 
-   return 0;
-}
->>>>>>> 75badc4dfe37c24e954c5a061e2a16c9eb9cb193
+//end of main function body
