@@ -1,28 +1,50 @@
-#include <stdio.h>
+//Author name: Pranoy Bhan
+//Creation Date: 20 March 2021
+//Purpose: Check whether the alphabet is vowel or consonent
+
+#include <stdio.h>	//Preprocessor directive to include input output function header file
 int main()
-{
-    char ch;
-    // Get input from the user
-    printf("\n Enter any character: ");
-    scanf("%c", &ch);
-    //check alphabate
-    if((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z'))
-    {
-        // check for vowel
-        if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' ||
-           ch=='A' || ch=='E' || ch=='I' || ch=='O' || ch=='U')
-    {
-            printf("\n It is an vowel.\n\n");
-    }
-        else
-    {
-            printf("\n It is a consonant.\n\n");
-    }
+{	//Start of main function body
+    char ch;	//Declaring a variable of character data type
+      
+    printf("Enter any alphabet: ");	//Printf function calling to print an alphabet
+    scanf("%c", &ch);	//Scanf function calling to take input from user 
+
+    switch(ch)
+	{	//Start of Switch case body
+        case 'a':	//Case 1 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'e':	//Case 2 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'i':	//Case 3 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'o':	//Case 4
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'u':	//Case 5 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'A':	//Case 6 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'E':	//Case 7 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'I':	//Case 8 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'O':	//Case 9 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        case 'U':	//Case 10 
+            printf("Vowel");	//Printf function calling to print vowel
+            break;	//Break statement
+        default:	//Default statement 
+            printf("Consonant");	//Printf function calling to print consonent
+    }//End of Switch case body
     
-	}
-    else
-    {
-        printf("\n It is not an vowel nor consonant.\n\n");
-    }
-    return 0;
-}
+	return 0;	//Return statement
+}//End of the main function body
