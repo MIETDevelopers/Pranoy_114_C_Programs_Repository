@@ -10,11 +10,11 @@ int main()
 	
 	scanf("%f %f %f %f", &raduisOfCircle, &sideOfSquare, &legthOfRectangle, &breadthOfRectangle);	//taking input form user
 	
-	printf("Area of Circle: %f",((22*raduisOfCircle*raduisOfCircle)/7));//printf statement for printing area of circle
+	printf("Area of Circle: %f",((22*raduisOfCircle*raduisOfCircle)/7));	//printf statement for printing area of circle
 	
-	printf("\nArea of Square: %f",(sideOfSquare*sideOfSquare));//printf statement for printing area of square
+	printf("\nArea of Square: %f",(sideOfSquare*sideOfSquare));	//printf statement for printing area of square
 	
-	printf("\nArea of Rectangle: %f",(legthOfRectangle*breadthOfRectangle));//printf statement for printing area of rectangle
+	printf("\nArea of Rectangle: %f",(legthOfRectangle*breadthOfRectangle));	//printf statement for printing area of rectangle
 	
 	return 0;	//return statement
 }//main function body ends
