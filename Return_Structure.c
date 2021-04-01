@@ -1,4 +1,8 @@
-#include<stdio.h> //Including standard input ouput header files from library.
+//Author Name: Pranoy Bhan
+//Creation Date: 31 March 2021
+//Purpose: To return program as structure
+
+#include<stdio.h> //Preprocessor directive to include standard input output header file
 struct s //structure declaration
 {
 	char text[50]; //member variable
